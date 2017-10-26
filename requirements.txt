@@ -1,0 +1,10 @@
+pandas
+ipython
+snakeviz==0.4.1
+tables
+dask[complete]
+toolz
+pandas_datareader
+matplotlib
+sklearn
+scipy

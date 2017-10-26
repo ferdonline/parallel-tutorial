@@ -21,7 +21,7 @@ else:
     dask.set_options(get=dask.multiprocessing.get)
 
 here = os.path.dirname(__file__)
-os.makedirs(os.path.join(here, 'data', 'minute'), exist_ok=True)
+os.makedirs(os.path.join(here, 'data', 'minute'))
 
 stocks = ['afl', 'aig', 'al', 'avy', 'bwa',
           'hal', 'hp', 'hpq', 'ibm', 'jbl', 'jpm', 'luv', 'pcg',
